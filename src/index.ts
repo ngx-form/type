@@ -3,7 +3,7 @@ import {
 
   checkedType, checked, classType, contenteditableType, contenteditable, contextmenuType, contextmenu,
 
-  disabledType, disabled, dirType, dir, dirnameType, dirname, dropzoneType, dropzone,
+  disabledType, disabled, dirType, dir, dirnameType, dirname, dragabbleType, dragabble, dropzoneType, dropzone,
 
   element, event,
 
