@@ -28,6 +28,9 @@
       "dom"
     ]
   },
+  "exclude": [
+    "node_modules"
+  ],
   "files": [
     "src/index.ts",
     "typings.d.ts"
