@@ -23,7 +23,7 @@ export type accesskey = string;
 export type classType = string;
 
 // Specifies whether the contents of the element are editable.
-export type contenteditableType = 'true' | 'false' | '' | undefined;
+export type contenteditableType = 'true' | 'false' | '' | undefined | boolean;
 export type contenteditable = 'true' | 'false' | '' | undefined;
 
 // The value of the id attribute on the menu with which to associate the element as a context menu.
@@ -66,8 +66,8 @@ export type listType = string;
 export type list = string;
 
 // Specifies whether the element represents an element whose contents are subject to spell checking and grammar checking.
-export type spellcheckType = 'true' | 'false' | true | false | '' | undefined;
-export type spellcheck = 'true' | 'false' | true | false | '' | undefined;
+export type spellcheckType = 'true' | 'false' | boolean | '' | undefined;
+export type spellcheck = 'true' | 'false' | boolean | '' | undefined;
 
 // Specifies zero or more CSS declarations that apply to the element [CSS].
 export type styleType = string;
@@ -122,16 +122,16 @@ export type autocompleteType = 'on' | 'off';
 export type autocomplete = 'on' | 'off';
 
 // Specifies that the element represents a control to which a UA is meant to give focus as soon as the document is loaded.
-export type autofocusType = 'autofocus' | '' | true | false;
-export type autofocus = 'autofocus' | '' | true | false;
+export type autofocusType = 'autofocus' | '' | boolean;
+export type autofocus = 'autofocus' | '' | boolean;
 
 // Specifies that the element represents a selected control.
-export type checkedType = 'checked' | '' | true | false | undefined;
-export type checked = 'checked' | '' | true | false | undefined;
+export type checkedType = 'checked' | '' | boolean | undefined;
+export type checked = 'checked' | '' | boolean | undefined;
 
 // Specifies that the element represents a disabled control.
-export type disabledType = 'disabled' | '' | true | false;
-export type disabled = 'disabled' | '' | true | false;
+export type disabledType = 'disabled' | '' | boolean;
+export type disabled = 'disabled' | '' | boolean;
 
 /**
  * Enables submission of a value for the directionality of the element, and gives the name of the field that contains that value.
@@ -218,15 +218,15 @@ export type placeholderType = string;
 export type placeholder = string;
 
 // Specifies that element represents a control whose value is not meant to be edited.
-export type readonlyType = 'readonly' | '' | true | false;
-export type readonly = 'readonly' | '' | true | false;
+export type readonlyType = 'readonly' | '' | boolean;
+export type readonly = 'readonly' | '' | boolean;
 
 /**
  * Specifies that the element is a required part of form submission.
  * @value: A regular expression that must match the JavaScript Pattern production as specified in [ECMA 262].
  */
-export type requiredType = 'required' | '' | true | false;
-export type required = 'required' | '' | true | false;
+export type requiredType = 'required' | '' | boolean;
+export type required = 'required' | '' | boolean;
 
 /**
  * The number of options meant to be shown by the control represented by its element.
