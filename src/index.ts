@@ -16,7 +16,7 @@ import {
 
   langType, lang, listType, list,
 
-  maxlengthType, maxlength, maxType, max, minType, min, multipleType, multiple,
+  maxlengthType, maxlength, maxType, max, mdHint, minType, min, multipleType, multiple,
 
   nameType, name,
 
@@ -51,7 +51,7 @@ export {
 
   langType, lang, listType, list,
 
-  maxlengthType, maxlength, maxType, max, minType, min, multipleType, multiple,
+  maxlengthType, maxlength, maxType, max, mdHint, minType, min, multipleType, multiple,
 
   nameType, name,
 
