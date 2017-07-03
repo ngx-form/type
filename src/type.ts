@@ -3,6 +3,11 @@ export type element = 'checkbox' | 'input' | 'select';
 export type event = 'cancelled' | 'changed' | 'submitted';
 
 /*
+  Material Design
+*/
+export type mdHint = 'maxlength' | string;
+
+/*
   With html specification
   http://w3c.github.io/html-reference/elements.html
 */
